@@ -1,8 +1,8 @@
-title: QI-TTS:Questioning Intonation Control for Emotional Speech Synthesis
-description: Submitted to ICASSP 2023
+title: Naturalspeech 2 
+description: demo page of an unofficial implement
 
 
 theme: jekyll-theme-cayman
 
-github:
-  repository_url: https://github.com/hexastrayer/
+original paper:
+  repository_url: https://arxiv.org/pdf/2304.09116.pdf
