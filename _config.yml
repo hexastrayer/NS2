@@ -1,8 +1,7 @@
-title: Naturalspeech 2
+title: Naturalspeech2
 description: demo page of an unofficial implement
 
 
 theme: jekyll-theme-cayman
 
-original paper:
-  repository_url: https://arxiv.org/pdf/2304.09116.pdf
+

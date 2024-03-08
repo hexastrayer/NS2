@@ -1,6 +1,5 @@
-### Zero-shot Text to Speech 
+### Natural Speech 2
 This demo page shows the audio from my implement (ns2) and official demo page (ns2_demo) while conducting zero shot speech synthesis. The model is trained on 44k hours MLS dataset and test on Librispeech and VCTK.
-
 
 ### Librispeech
 
