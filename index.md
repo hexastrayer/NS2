@@ -12,22 +12,17 @@ This demo page shows the audio from my implement (ns2) and official demo page (n
     </tr>
 
     <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_ref.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_tts.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_demo.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    
+    <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_1_ref.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_1_tts.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_1_demo.wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
-    <tr>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_2_ref.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_2_tts.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_2_demo.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-
-    <tr>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_ref.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_tts.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_3_demo.wav" type="audio/mpeg"></audio> </th>
-    </tr>
 
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/librispeech_4_ref.wav" type="audio/mpeg"></audio> </th>
@@ -91,12 +86,6 @@ This demo page shows the audio from my implement (ns2) and official demo page (n
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_4_ref.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_4_tts.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_4_demo.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-
-    <tr>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_5_ref.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_5_tts.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/demo-compare/vctk_5_demo.wav" type="audio/mpeg"></audio> </th>
     </tr>
 
     <tr>
